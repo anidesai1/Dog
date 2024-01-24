@@ -10,7 +10,7 @@ public class Dog {
     @Id
     @GeneratedValue
     private long id;
-    private String name;
+    private String dog_name;
     private String breed;
     private int weight;
 }
