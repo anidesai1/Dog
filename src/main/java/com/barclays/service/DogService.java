@@ -7,4 +7,5 @@ public interface DogService {
     Dog save(Dog dog);
     List<Dog> findAll();
     List<Dog> findDogByName(String name);
+    Dog updateDog(Dog dog);
 }
